@@ -1,0 +1,15 @@
+#https://gist.github.com/CushItRealGood/6e1d7c5d7cde3c4b32a6b3d9527d8ce7
+ec2keys.pem 
+
+#https://gist.github.com/CushItRealGood/f98188f9dcaeb07ea7b531139e37fdb5
+secret.tfvars
+
+# could be sensitive data in these files
+terraform.tfstate 
+terraform.tfstate.backup
+
+#lock files where showing up from this directory so hiding them from git
+.terraform/
+
+#backend.tf not ready, not necessary
+#https://blog.codeship.com/terraforming-your-docker-environment-on-aws/
