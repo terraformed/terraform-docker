@@ -37,7 +37,7 @@ resource "aws_security_group" "docker-terraformed-sg" {
 }
 
 resource "aws_instance" "docker-terraformed" {
-  ami           = "ami-08e053c0dc7059edf" # ami-c58c1dd3 is the free Amazon Linux AMI
+  ami           = "ami-08e053c0dc7059edf" # This ami is for Debian OS, you could also use ami-c58c1dd3 is the free Amazon Linux AMI but I believe its based on RHEL so remote-exec commands may fail
   instance_type = "t2.micro"
   key_name        = "${var.key_name}"
   vpc_security_group_ids = ["${aws_security_group.docker-terraformed-sg.id}"]
@@ -56,7 +56,7 @@ resource "aws_instance" "docker-terraformed" {
   provisioner "remote-exec" {
     inline = [
 
-      #prepping for traefik later
+      #prepping for traefik later, optional and unncessary for most users
       "touch acme.json",
       "chmod 600 acme.json",
 
