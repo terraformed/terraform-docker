@@ -1,6 +1,9 @@
 # Docker via Terraform on AWS
  This project will leverage AWS to quickly land a debian ec2 instance with docker installed. A security group with ports 22, 80, 443 are created on terraform apply as well. This instance should be free if done with AWS free tier.
- 
+
+### Prerequisites
+Install Terraform and Git. I suggest using chocolatey for Windows and homebrew for Mac. 
+
 ## Getting Started
 1. Create AWS account
 2. [Create IAM user](https://console.aws.amazon.com/iam/home)
