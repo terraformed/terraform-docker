@@ -1,5 +1,5 @@
 # Docker via Terraform and AWS
-### ADD DESCRIPTION HERE
+### ADD DESCRIPTION HERE 24hour time period after account creation to access ec2 dashboard and create key pair
 1. Create AWS account
 2. [Create IAM user](https://console.aws.amazon.com/iam/home)
    - Select Programmatic access for access type
