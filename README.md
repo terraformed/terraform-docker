@@ -10,7 +10,7 @@ Install Terraform and Git. I suggest using chocolatey for Windows and homebrew f
    - Select Programmatic access for access type
    - Give the user 'AdministratorAccess' policy or create a Admin group with 'AdministratorAccess' and add that user to it.
    - After creating the user you will get the access key ID and secret access key. You will need these for our secret.tfvars file.
-3. [Create a key pair](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html) called ec2keys and save ec2keys.pem to this project location. Possible restrictions creating key pair within EC2 dashboard for the first 24 hours of AWS account creation.
+3. [Create a key pair](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html) called ec2keys and save subsequent ec2keys.pem to this project location. Possible restrictions creating key pair within EC2 dashboard for the first 24 hours of AWS account creation.
 
 ## Installation
 1. Clone Repo and run terraform init
