@@ -2,7 +2,7 @@
  This project will leverage AWS to quickly land a debian ec2 instance with docker installed. A security group with ports 22, 80, 443 are created on terraform apply as well. This instance should be free if done with AWS free tier.
 
 ### Prerequisites
-Install Terraform and Git. I suggest using chocolatey for Windows and homebrew for Mac. 
+Install Terraform and Git. I suggest using chocolatey for Windows or homebrew for Mac. 
 
 ## Getting Started
 1. Create AWS account
