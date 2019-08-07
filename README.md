@@ -32,5 +32,5 @@ Install Terraform and Git. I suggest using chocolatey for Windows or homebrew fo
    ```
    
 ## Acknowledgments:
- - Reviewed this [blog](https://blog.codeship.com/terraforming-your-docker-environment-on-aws/) by Phillip Shipley
- - Also watched some of Ned Bellavance [Getting Started with Terraform](https://app.pluralsight.com/library/courses/terraform-getting-started) on Pluralsite
+ - Referenced this [blog](https://blog.codeship.com/terraforming-your-docker-environment-on-aws/) by Phillip Shipley
+ - Watched some of Ned Bellavance [Getting Started with Terraform](https://app.pluralsight.com/library/courses/terraform-getting-started) on Pluralsite
