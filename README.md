@@ -1,4 +1,4 @@
-# Docker via Terraform and AWS
+# Docker via Terraform on AWS
 ##### ADD DESCRIPTION HERE
 1. Create AWS account
 2. [Create IAM user](https://console.aws.amazon.com/iam/home)
