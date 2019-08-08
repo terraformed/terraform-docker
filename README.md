@@ -15,7 +15,7 @@ Install Terraform and Git. I suggest using chocolatey for Windows or homebrew fo
 ## Installation
 1. Clone Repo and run terraform init
    ```
-   git clone https://github.com/CushItRealGood/terraform-docker.git
+   git clone https://github.com/terraformed/terraform-docker.git
    cd ./terraform-docker
    terraform init
    ```
