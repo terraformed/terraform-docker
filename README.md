@@ -11,7 +11,7 @@ Install Terraform and Git. I suggest using chocolatey for Windows or homebrew fo
    - Give the user 'AdministratorAccess' policy or create a Admin group with 'AdministratorAccess' and add that user to it.
    - After creating the user you will get the access key ID and secret access key. You will need these for our secret.tfvars file.
 3. [Create a key pair](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html) called ec2keys and save subsequent ec2keys.pem to this project location. The key pair is region specific so make sure it is created in the right place (us-east-1).
-4. In order to use this AWS Marketplace product you need to accept terms and subscribe. To do so please visit https://aws.amazon.com/marketplace/pp?sku=55q52qvgjfpdj2fpfy9mb1lo4
+4. In order to use this AWS Marketplace product you need visit [here](https://aws.amazon.com/marketplace/pp?sku=55q52qvgjfpdj2fpfy9mb1lo4), click "Continue to Subscribe", and accept the terms of service.
 
 ## Installation
 1. Clone Repo and run terraform init
