@@ -37,7 +37,7 @@ resource "aws_security_group" "docker-terraformed-sg" {
 }
 
 resource "aws_instance" "docker-terraformed" {
-  ami           = "ami-066027b63b44ebc0a"
+  ami           = "${var.ami_id}"
   instance_type = "t2.micro"
   key_name        = "${var.key_name}"
   vpc_security_group_ids = ["${aws_security_group.docker-terraformed-sg.id}"]

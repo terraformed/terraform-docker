@@ -18,3 +18,7 @@ variable "private_key_path" {
 variable "key_name" {  
   default = "ec2keys"
 }
+
+variable "ami_id" {  
+  default = "ami-066027b63b44ebc0a"
+}
