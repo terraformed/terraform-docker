@@ -37,7 +37,7 @@ resource "aws_security_group" "docker-terraformed-sg" {
 }
 
 resource "aws_instance" "docker-terraformed" {
-  ami           = "ami-05f27d4d6770a43d2" # This ami is for Debian 9.10, you could also use ami-c58c1dd3 is the free Amazon Linux AMI but I believe its based on RHEL so remote-exec commands may fail
+  ami           = "ami-066027b63b44ebc0a"
   instance_type = "t2.micro"
   key_name        = "${var.key_name}"
   vpc_security_group_ids = ["${aws_security_group.docker-terraformed-sg.id}"]
